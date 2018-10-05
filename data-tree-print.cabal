@@ -11,7 +11,7 @@ Bug-reports:         https://github.com/lspitzner/data-tree-print/issues
 category:            Pretty Printer
 build-type:          Simple
 extra-source-files:  ChangeLog.md
-cabal-version:       >=1.10
+cabal-version:       2.0
 
 description: {
   Provides functionality similar to that of the `Show` class: Taking some
@@ -36,7 +36,7 @@ source-repository head {
 library
   exposed-modules:     DataTreePrint
   build-depends:
-    { base >=4.3 && <4.12
+    { base >=4.3 && <4.13
     , pretty >=1.1 && <1.2
     , syb >=0.6 && <0.8
     }
